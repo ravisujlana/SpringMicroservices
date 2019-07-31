@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e081a31e-c91a-4278-8740-084784125b62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/Dockerfile.dev" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/OtherPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/Dockerfile.dev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/Fib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/OtherPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
@@ -142,6 +120,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
   </component>
   <component name="IdeDocumentHistory">
@@ -240,16 +219,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564442358103</updated>
-      <workItem from="1564442359672" duration="15567000" />
+      <workItem from="1564442359672" duration="15832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15567000" />
+    <option name="totallyTimeSpent" value="15832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
