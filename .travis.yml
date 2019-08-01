@@ -9,17 +9,17 @@ script:
   - docker run -e CI=true react-test npm test
 
 after_success:
-  - docker build -t multi-client ./client
-  - docker build -t multi-nginx ./nginx
-  - docker build -t multi-worker ./worker
-  - docker build -t multi-server ./server
+  - docker build -t ravisujlana/multi-client ./client
+  - docker build -t ravisujlana/multi-nginx ./nginx
+  - docker build -t ravisujlana/multi-worker ./worker
+  - docker build -t ravisujlana/multi-server ./server
   #Log in to Docker Hub
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #take images and push them to Docker Hub
-  - docker push multi-client
-  - docker push multi-nginx
-  - docker push multi-worker
-  - docker push multi-server
+  - docker push ravisujlana/multi-client
+  - docker push ravisujlana/multi-nginx
+  - docker push ravisujlana/multi-worker
+  - docker push ravisujlana/multi-server
 
 deploy:
   provider: elasticbeanstalk
