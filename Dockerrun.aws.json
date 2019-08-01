@@ -3,14 +3,14 @@
   "containerDefinitions": [
     {
       "name": "client",
-      "image": "multi-client",
+      "image": "ravisujlana/multi-client",
       "hostname": "client",
       "essential": false,
       "memory": 128
     },
     {
       "name": "nginx",
-      "image": "multi-nginx",
+      "image": "ravisujlana/multi-nginx",
       "hostname": "nginx",
       "essential": true,
       "portMappings" : [
@@ -24,14 +24,14 @@
     },
     {
       "name": "server",
-      "image": "multi-server",
+      "image": "ravisujlana/multi-server",
       "hostname": "api",
       "essential": false,
       "memory": 128
     },
     {
       "name": "worker",
-      "image": "multi-worker",
+      "image": "ravisujlana/multi-worker",
       "hostname": "worker",
       "essential": false,
       "memory": 128
