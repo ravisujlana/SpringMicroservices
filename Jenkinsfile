@@ -10,7 +10,8 @@ pipeline {
     stage('cloning') {
       steps {
         pwd()
-        sh 'sudo docker build -t react-test -f ./client/Dockerfile.dev ./client'
+        tool(name: 'docker', type: 'docker')
+        sh 'docker build -t react-test -f ./client/Dockerfile.dev ./client'
       }
     }
   }
