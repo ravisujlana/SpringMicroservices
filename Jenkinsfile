@@ -10,7 +10,7 @@ pipeline {
     stage('cloning') {
       steps {
         pwd()
-        sh 'npm install ./client'
+        sh 'def image = docker.build("ravisujlana/multi-client","-t react-test","-f ./client/Dockerfile.dev",".client")'
       }
     }
   }
