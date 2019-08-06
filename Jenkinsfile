@@ -1,15 +1,17 @@
-pipeline {
-  environment {
-    registry = "ravisujlana/multi-kubernetes"
-    registryCredential = 'dockerhub'
-    dockerImage = ''
-  }
-  agent any
-  stages {
-    stage('Cloning Git') {
-      steps {
-        git 'https://github.com:ravisujlana/multi-kubernetes.git'
-      }
+node {
+    def app
+
+    dir('client'){
+        sh 'pwd'
     }
-  }
+    stage('Clone repository') {
+        /* Cloning the Repository to our Workspace */
+        checkout scm
+    }
+
+    stage('Build image') {
+        /* This builds the actual image */
+
+        app = docker.build("ravisujlana/client")
+    }
 }
