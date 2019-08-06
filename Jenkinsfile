@@ -4,6 +4,7 @@ pipeline {
     stage('cloning') {
       steps {
         pwd()
+        sh 'docker build -t react-test -f ./client/Dockerfile.dev ./client'
       }
     }
   }
