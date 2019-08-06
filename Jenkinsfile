@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      image 'node:apline'
+    }
+
+  }
   stages {
     stage('cloning') {
       steps {
