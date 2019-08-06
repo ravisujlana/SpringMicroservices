@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'node:apline'
       args '-u root:sudo -p 3000:3000'
+      image 'node:12-apline'
     }
 
   }
