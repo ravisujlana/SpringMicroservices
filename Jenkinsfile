@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      args '-u root:sudo -p 3000:3000'
       image 'node:12-apline'
+      args '-p 3000:3000'
     }
 
   }
@@ -17,6 +17,5 @@ pipeline {
   environment {
     registry = 'ravisujlana/multi-kubernetes'
     registryCredential = 'dockerhub'
-    dockerImage = ''
   }
 }
