@@ -10,7 +10,22 @@ pipeline {
     stage('cloning') {
       steps {
         pwd()
-        sh 'app = docker.build("ravisujlana/multi-client")'
+        node(label: 'docker') {
+          sh '''def app
+
+stage(\'Clone repository\') {
+        /* Cloning the Repository to our Workspace */
+
+        checkout scm
+    }
+
+stage(\'Build image\') {
+        /* This builds the actual image */
+
+        app = docker.build("ravisujlana/multi-client")
+    }'''
+        }
+
       }
     }
   }
