@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
+      image 'node:6-alpine'
       args '-p 3000:3000'
-      image 'node:10-apline'
     }
 
   }
@@ -13,9 +13,5 @@ pipeline {
         sh 'docker build -t react-test -f ./client/Dockerfile.dev ./client'
       }
     }
-  }
-  environment {
-    registry = 'ravisujlana/multi-kubernetes'
-    registryCredential = 'dockerhub'
   }
 }
