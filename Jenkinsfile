@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       args '-u root:sudo -p 3000:3000'
-      image 'node:6-apline'
+      image 'node:apline'
     }
 
   }
