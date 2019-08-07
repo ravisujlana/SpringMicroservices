@@ -1,11 +1,4 @@
 pipeline {
-    agent {
-        docker {
-            image 'node:8-alpine'
-            label 'ravisujlana/multi-client'
-            args  '-v /tmp:/tmp'
-        }
-    }
   agent {
     dockerfile {
             filename 'Dockerfile.dev'
