@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e081a31e-c91a-4278-8740-084784125b62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile/entrypoint.bash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -34,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -260,12 +262,12 @@
       <updated>1564442358103</updated>
       <workItem from="1564442359672" duration="17180000" />
       <workItem from="1565105701790" duration="767000" />
-      <workItem from="1565117348184" duration="18494000" />
+      <workItem from="1565117348184" duration="18618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67966000" />
+    <option name="totallyTimeSpent" value="68090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1975" y="-815" width="1133" height="974" extended-state="0" />
@@ -681,7 +683,7 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
