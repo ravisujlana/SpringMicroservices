@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="168">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -161,11 +161,6 @@
               <item name="micro-kubernetes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/WebstormProjects/micro-kubernetes" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="micro-kubernetes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/WebstormProjects/micro-kubernetes" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Dockerfile" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -218,12 +213,12 @@
       <updated>1564442358103</updated>
       <workItem from="1564442359672" duration="17180000" />
       <workItem from="1565105701790" duration="767000" />
-      <workItem from="1565117348184" duration="18841000" />
+      <workItem from="1565117348184" duration="18921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68313000" />
+    <option name="totallyTimeSpent" value="68393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1975" y="-815" width="1133" height="974" extended-state="0" />
@@ -615,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile/entrypoint.bash">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
@@ -636,10 +624,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="168">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
