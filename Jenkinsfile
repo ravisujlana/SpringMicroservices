@@ -1,19 +1,17 @@
 pipeline {
   agent {
-    docker {
-      args '-u root:sudo -p 3000:3000'
-      image 'node:8-alpine'
-    }
+    dockerfile {
+            filename 'Dockerfile.dev'
+            dir 'client'
+            label 'ravisujlana/multi-client'
+            args '-t react-test'
+        }
 
-  }
-  environment {
-    PATH = "$PATH;/usr/local/bin/docker-compose;/usr/local/bin/docker"
   }
   stages {
     stage('cloning') {
       steps {
         pwd()
-        sh 'docker build -t react-test -f ./client/Dockerfile.dev ./client'
       }
     }
   }
